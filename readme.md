@@ -15,10 +15,19 @@ One of our product called [SumberManusia](https://sumbermanusia.my)
 
 ## Infrastructure
 	
-- [ ] Cluster
-- [ ] Multi-Tenant
+- [x] Cluster
+	- [x] Distributed Infrastructure
+	- [x] High Availability (HA)
+- [x] Multi-Tenant
+	- [x] Single Application used by many organization, agencies, etc. For instance a helpdesk application.
 
 ## Application
 
-- [ ] Maintainable Code
-- [ ] Version Control
+- [x] Maintainable Code
+	- [x] [PHP Standard Recommendation](http://www.php-fig.org/psr/)
+	- [x] [Coding Style Guide](http://www.php-fig.org/psr/psr-2/)
+	- [x] [Autoloader](http://www.php-fig.org/psr/psr-4/)
+	- [x] [HTTP Message Interface](http://www.php-fig.org/psr/psr-7/)
+- [x] Version Control
+	- [x] Plaforms - [GitHub](https://github.com), [GitLab](https://gitlab.com), [BitBucket](https://bitbucket.org), [Gogs](https://gogs.io)
+	- [x] Tools - Source Tree, Kraken
